@@ -74,6 +74,13 @@ are not included because they contain the contest labels.
 earlier DINOv2 baseline. They need facebookresearch/dinov2 at commit 7b187bd in `vendor/dinov2-7b187bd/` and
 `weights/dinov2_vitb14_reg4_pretrain.pth`, which are not included, and `src/probe.py` needs scikit-learn.
 
+## Camera-ready analyses
+`camera_ready/` holds the post-submission analyses of the camera-ready paper: the detector's timestamp against a
+constant timestamp on the same emitted clips, the synthetic pairs against real-only training with the same number of
+optimiser updates (`src/finetune.py run --pad-real`), and rule-based failure examples. `camera_ready/README.md` lists
+the training runs, the commands and the reference results. `src/finetune.py run --resume` continues an interrupted
+run from its saved fold models.
+
 ## Synthetic data
 `synth/` holds the generator of the synthetic training clips (`synth/gen`, `synth/scripts`; the set the shipped
 models used: `synth/RELEASE.md`). Each clip is one member of a minimal pair: a positive and a negative that are
@@ -86,6 +93,8 @@ check and are sampled): camera calibrations (`synth/calib/`), structure masks
 detections (`synth/data/`). The generator still draws clip durations, onset times, actor sizes, person brightness and
 the video degradation from the contest clips, so it needs the contest data too. The rendered clips, the assets and the
 videos are not included.
+The rendered pairs on MEVA backgrounds (594 of the 861 pairs of release v3, 1188 clips, CC BY 4.0) are released on
+Zenodo: https://doi.org/10.5281/zenodo.23365921. The 267 pairs rendered on contest backgrounds are not released.
 
 Requirements: an NVIDIA GPU with OptiX, Blender 4.2.23 at `~/opt/blender-4.2.23-linux-x64/blender` (`BLENDER` in
 `synth/gen/run_batch.py`), a systemd user session (each Blender call runs in `systemd-run --user --scope`), the contest

@@ -47,3 +47,6 @@ synth/data/det_x/vid*
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# camera-ready analyses: per-clip outputs hold contest labels
+camera_ready/output/

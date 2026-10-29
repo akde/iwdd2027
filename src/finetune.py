@@ -34,6 +34,13 @@ Each epoch of a fit adds min(available, floor(cap * real clips / 2)) whole minim
 a separate seeded generator. Fold rule (synth/RELEASE.md): the inner fit of outer fold k (validation fold j) uses
 synthetic fold not in {k, j}, the outer fit fold != k; MEVA (fold -1) is always allowed. Inner validation, OOF,
 train_pred and the head's standardization use the 500 real clips only. Without --extra a run is E3 / E3r as run.
+--pad-real (camera-ready BUDGET control, real clips only): each epoch adds floor(cap * real clips / 2) * 2 further real
+clips, drawn without replacement from the fit's real clips by the generator that draws the pairs, so the epoch pool, the
+update count and the cosine schedule equal those of the same run with --extra.
+--resume (run --epochs only, after a crash or power loss): rerun the same command with --resume; every fit whose
+checkpoint f<k>_s<s>.pt exists is loaded instead of retrained (its OOF and train_pred logits are recomputed from it),
+the config must match the interrupted one, and train.log is appended to. Checkpoints are written atomically (temporary
+file, fsync, rename), so a checkpoint that exists is complete.
 
 Final form E3f (wiki/experiments.md "E3f"), the shipped arm on all its clips:
 python src/finetune.py run --form m --robust [--extra IDX] --epochs E --run ID   FE: every outer fold E epochs, no inner
@@ -44,7 +51,7 @@ python src/finetune.py full --form m --robust [--extra IDX] --epochs E --run ID 
 python src/finetune.py synth_probe --form m --robust --extra IDX --runs RUN ... --out CSV   full-mode and per-group q, t
                                              of the MEVA synthetic clips (fold -1) through each run's 15 models
 """
-import argparse, copy, hashlib, json, subprocess, sys, time
+import argparse, copy, hashlib, json, os, subprocess, sys, time
 from multiprocessing import Pool
 from pathlib import Path
 
@@ -221,7 +228,7 @@ class E3:
             out.setdefault(self.X[v].pair, []).append(v)
         return out
 
-    def fit(self, vids, seed, stop=None, val=(), log=print, tag="", extra=(), cap=1.0):
+    def fit(self, vids, seed, stop=None, val=(), log=print, tag="", extra=(), cap=1.0, pad=False):
         torch.manual_seed(seed)
         rng = np.random.default_rng(seed)
         tail = new_tail(self.base)
@@ -231,11 +238,14 @@ class E3:
                                 weight_decay=WD)
         pairs = self.pairs(extra)  # E3s: whole pairs per epoch, from their own generator (no draw without extra)
         ids, npair, srng = sorted(pairs), min(len(pairs), int(cap * len(vids)) // 2), np.random.default_rng([seed, 1])
-        sched = torch.optim.lr_scheduler.CosineAnnealingLR(opt, EPOCHS * -(-(len(vids) + 2 * npair) // BATCH))
+        assert not (pad and pairs), "--pad-real is a real-only control"
+        npad = 2 * (int(cap * len(vids)) // 2) if pad else 0  # --pad-real: real clips in the place of the pairs' clips
+        sched = torch.optim.lr_scheduler.CosineAnnealingLR(opt, EPOCHS * -(-(len(vids) + 2 * npair + npad) // BATCH))
         params, curve = list(tail.parameters()) + list(head.parameters()), []
         for ep in range(stop or EPOCHS):
             head.train()
             pool = vids + [v for p in (srng.choice(ids, npair, replace=False) if npair else []) for v in pairs[p]]
+            pool += [str(v) for v in srng.choice(vids, npad, replace=False)] if npad else []
             t0, order, tl, ty, tq = time.time(), [pool[i] for i in rng.permutation(len(pool))], [], [], []
             for i in range(0, len(order), BATCH):
                 opt.zero_grad()
@@ -255,7 +265,7 @@ class E3:
                 opt.step()
                 sched.step()
                 tl.append(bl)
-            msg = (f"{tag} ep {ep} train_loss {np.mean(tl):.4f} train_auc_crops {auroc(np.array(ty), np.array(tq)):.3f} "
+            msg = (f"{tag} ep {ep} pool {len(pool)} updates {-(-len(pool) // BATCH)} train_loss {np.mean(tl):.4f} train_auc_crops {auroc(np.array(ty), np.array(tq)):.3f} "
                    f"{time.time() - t0:.0f} s")
             if len(val):
                 vl, va = self.val(tail, head, val)
@@ -263,6 +273,23 @@ class E3:
                 curve.append(vl)
             log(msg)
         return tail.eval(), head.eval(), curve
+
+
+def save_ckpt(tail, head, path):  # atomic: a checkpoint that exists is complete, even after a power loss
+    tmp = path.with_suffix(".pt.tmp")
+    with open(tmp, "wb") as fh:
+        torch.save({"tail": tail.state_dict(), "head": head.state_dict()}, fh)
+        fh.flush(); os.fsync(fh.fileno())
+    os.replace(tmp, path)
+    d = os.open(path.parent, os.O_RDONLY); os.fsync(d); os.close(d)
+
+
+def load_ckpt(e, path):  # -> (tail, head) in eval mode, as returned by E3.fit
+    ck = torch.load(path, map_location=DEV, weights_only=True)
+    d = next(iter(e.stats.values())).shape[1]
+    tail, head = new_tail(e.base), Head(d, torch.zeros(d), torch.ones(d)).to(DEV)
+    tail.load_state_dict(ck["tail"]); head.load_state_dict(ck["head"])
+    return tail.eval(), head.eval()
 
 
 def full(e, a, cfg, run, seeds, log):  # E3f: every real (+ synthetic) clip, --epochs E, nothing validated
@@ -371,6 +398,8 @@ def main():
     ap.add_argument("--release", help="cache: a synthetic release dir (manifest.csv, clips/, labels/)")
     ap.add_argument("--extra", nargs="*", default=[], help="run: synthetic index.csv files (E3s)")
     ap.add_argument("--cap", type=float, default=1.0, help="run: synthetic clips per real training clip and epoch")
+    ap.add_argument("--pad-real", action="store_true", help="run: real-only control with the --extra run's pool size")
+    ap.add_argument("--resume", action="store_true", help="run --epochs: reuse the finished fits of an interrupted run")
     ap.add_argument("--run", help="run id under runs/ (default: s5_movinet_ft_r with --robust, else s5_movinet_ft)")
     ap.add_argument("--epochs", type=int, help="run: E epochs in every outer fold, no inner split (E3f FE); full: required")
     ap.add_argument("--groups", type=int, default=5, help="full: groups of len(--seeds) models")
@@ -418,9 +447,23 @@ def main():
             pool={int(k): dict(inner=len(e.syn(k, (k + 1) % len(folds))), outer=len(e.syn(k))) for k in folds}))
     if a.epochs:
         cfg["epochs_fixed"] = a.epochs
+    if a.pad_real:
+        assert a.cmd == "run" and a.epochs and not a.extra, "--pad-real: run, --epochs, no --extra"
+        cfg["pad_real"] = dict(cap=a.cap, rule="per epoch 2*floor(cap*n/2) extra real clips, no replacement")
+    if a.resume and (run / "config.json").exists():  # same recipe as the interrupted run, or stop
+        assert a.cmd == "run" and a.epochs, "--resume: run --epochs only"
+        old = json.loads((run / "config.json").read_text())
+        same = lambda c: {k: v for k, v in json.loads(json.dumps(c)).items() if k not in ("git", "dirty", "epochs_chosen", "resumed")}
+        diff = sorted(k for k in set(same(old)) | set(same(cfg)) if same(old).get(k) != same(cfg).get(k))
+        if diff:
+            sys.exit(f"--resume: {run}/config.json differs from this command in {diff}; not resuming")
+        cfg["resumed"] = old.get("resumed", []) + [dict(previous_git=old["git"], previous_dirty=old["dirty"],
+                                                         at=time.strftime("%Y-%m-%dT%H:%M:%S%z"), reused={})]
     (run / "config.json").write_text(json.dumps(cfg, indent=1))
-    f = open(run / "train.log", "w")
+    f = open(run / "train.log", "a" if a.resume else "w")
     log = lambda s: (print(s, file=f, flush=True), print(s, flush=True))
+    if cfg.get("resumed"):
+        log(f"RESUME at {cfg['resumed'][-1]['at']} (git {cfg['git'][:7]}): finished fits are loaded, not retrained")
     if a.cmd == "full":
         assert a.epochs, "full needs --epochs"
         return full(e, a, cfg, run, seeds, log)
@@ -440,8 +483,16 @@ def main():
             log(f"fold {k}: mean inner val loss by epoch {mean.round(4).tolist()} -> {E} epochs")
         lte, ltr = {v: [] for v in te}, {v: [] for v in tr}
         for s in seeds:
-            tail, head, _ = e.fit(tr, s, stop=E, log=log, tag=f"E3 fold {k} seed {s}", extra=e.syn(k), cap=a.cap)
-            torch.save({"tail": tail.state_dict(), "head": head.state_dict()}, run / f"f{k}_s{s}.pt")
+            ck = run / f"f{k}_s{s}.pt"
+            if a.resume and ck.exists():
+                tail, head = load_ckpt(e, ck)
+                cfg.setdefault("resumed", [dict(previous_git=None, previous_dirty=None, at=None, reused={})])
+                cfg["resumed"][-1]["reused"][ck.name] = sha(ck)
+                log(f"E3 fold {k} seed {s}: reused {ck.name} (sha256 {sha(ck)[:12]})")
+            else:
+                tail, head, _ = e.fit(tr, s, stop=E, log=log, tag=f"E3 fold {k} seed {s}", extra=e.syn(k), cap=a.cap,
+                                      pad=a.pad_real)
+                save_ckpt(tail, head, ck)
             for lg, vids in ((lte, te), (ltr, tr)):
                 for v, l in e.logits(tail, head, vids).items():
                     lg[v].append(l)

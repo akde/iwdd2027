@@ -1,0 +1,56 @@
+experiment,comparison,set,unit,F1_a,F1_b,dF1,ci_lo,ci_hi,counts_a,counts_b,note
+TIMING,learned - constant timestamp (same emitted clips),all_500,"submitted recipe, seed group g0 (3-seed OOF ensemble)",0.6243,0.6203,0.004,-0.0387,0.0445,157/96/93,156/97/94,emitted 253/500; in-window among emitted positives 157/178 vs 156/178; of all positives 157/250
+TIMING,learned - constant timestamp (same emitted clips),public_100,"submitted recipe, seed group g0 (3-seed OOF ensemble)",0.6538,0.6923,-0.0385,-0.1212,0.031,34/20/16,36/18/14,emitted 54/100; in-window among emitted positives 34/39 vs 36/39; of all positives 34/50
+TIMING,learned - constant timestamp (same emitted clips),all_500,"submitted recipe, seed group g1 (3-seed OOF ensemble)",0.6012,0.5855,0.0157,-0.0212,0.0529,153/106/97,149/110/101,emitted 259/500; in-window among emitted positives 153/177 vs 149/177; of all positives 153/250
+TIMING,learned - constant timestamp (same emitted clips),public_100,"submitted recipe, seed group g1 (3-seed OOF ensemble)",0.6471,0.6667,-0.0196,-0.1132,0.0667,33/19/17,34/18/16,emitted 52/100; in-window among emitted positives 33/37 vs 34/37; of all positives 33/50
+TIMING,learned - constant timestamp (same emitted clips),all_500,"submitted recipe, seed group g2 (3-seed OOF ensemble)",0.6277,0.6082,0.0195,-0.019,0.0585,161/102/89,156/107/94,emitted 263/500; in-window among emitted positives 161/181 vs 156/181; of all positives 161/250
+TIMING,learned - constant timestamp (same emitted clips),public_100,"submitted recipe, seed group g2 (3-seed OOF ensemble)",0.5981,0.6168,-0.0187,-0.1081,0.0625,32/25/18,33/24/17,emitted 57/100; in-window among emitted positives 32/36 vs 33/36; of all positives 32/50
+TIMING,learned - constant timestamp (same emitted clips),all_500,"submitted recipe, seed group g3 (3-seed OOF ensemble)",0.6519,0.6398,0.0121,-0.0305,0.0547,162/85/88,159/88/91,emitted 247/500; in-window among emitted positives 162/186 vs 159/186; of all positives 162/250
+TIMING,learned - constant timestamp (same emitted clips),public_100,"submitted recipe, seed group g3 (3-seed OOF ensemble)",0.68,0.72,-0.04,-0.1282,0.0357,34/16/16,36/14/14,emitted 50/100; in-window among emitted positives 34/39 vs 36/39; of all positives 34/50
+TIMING,learned - constant timestamp (same emitted clips),all_500,"submitted recipe, seed group g4 (3-seed OOF ensemble)",0.6578,0.6276,0.0302,-0.0047,0.0662,174/105/76,166/113/84,emitted 279/500; in-window among emitted positives 174/195 vs 166/195; of all positives 174/250
+TIMING,learned - constant timestamp (same emitted clips),public_100,"submitted recipe, seed group g4 (3-seed OOF ensemble)",0.7037,0.7222,-0.0185,-0.086,0.0417,38/20/12,39/19/11,emitted 58/100; in-window among emitted positives 38/42 vs 39/42; of all positives 38/50
+BUDGET,content (MIXED_MATCHED - REAL_EXTENDED),all_500,seed group g0 (3-seed OOF ensemble),0.6243,0.6371,-0.0128,-0.0702,0.0341,157/96/93,165/103/85,
+BUDGET,content (MIXED_MATCHED - REAL_EXTENDED),public_100,seed group g0 (3-seed OOF ensemble),0.6538,0.6667,-0.0128,-0.1053,0.0691,34/20/16,36/22/14,
+BUDGET,content (MIXED_MATCHED - REAL_EXTENDED),all_500,seed group g1 (3-seed OOF ensemble),0.6012,0.6316,-0.0304,-0.091,0.0239,153/106/97,150/75/100,
+BUDGET,content (MIXED_MATCHED - REAL_EXTENDED),public_100,seed group g1 (3-seed OOF ensemble),0.6471,0.7143,-0.0672,-0.1904,0.037,33/19/17,35/13/15,
+BUDGET,content (MIXED_MATCHED - REAL_EXTENDED),all_500,seed group g2 (3-seed OOF ensemble),0.6277,0.6458,-0.0181,-0.0677,0.0292,161/102/89,165/96/85,
+BUDGET,content (MIXED_MATCHED - REAL_EXTENDED),public_100,seed group g2 (3-seed OOF ensemble),0.5981,0.6981,-0.1,-0.2223,0.0099,32/25/18,37/19/13,
+SEEDS,content (MIXED_MATCHED - REAL_EXTENDED),all_500,single seed 0,0.5936,0.6331,-0.0395,,,,,no interval: seed-level spread only
+SEEDS,content (MIXED_MATCHED - REAL_EXTENDED),all_500,single seed 1,0.5964,0.6027,-0.0063,,,,,no interval: seed-level spread only
+SEEDS,content (MIXED_MATCHED - REAL_EXTENDED),all_500,single seed 2,0.6457,0.6259,0.0198,,,,,no interval: seed-level spread only
+SEEDS,content (MIXED_MATCHED - REAL_EXTENDED),all_500,single seed 3,0.6239,0.6458,-0.0219,,,,,no interval: seed-level spread only
+SEEDS,content (MIXED_MATCHED - REAL_EXTENDED),all_500,single seed 4,0.6299,0.6019,0.028,,,,,no interval: seed-level spread only
+SEEDS,content (MIXED_MATCHED - REAL_EXTENDED),all_500,single seed 5,0.642,0.6215,0.0205,,,,,no interval: seed-level spread only
+SEEDS,content (MIXED_MATCHED - REAL_EXTENDED),all_500,single seed 6,0.6473,0.5922,0.0551,,,,,no interval: seed-level spread only
+SEEDS,content (MIXED_MATCHED - REAL_EXTENDED),all_500,single seed 7,0.5934,0.6184,-0.025,,,,,no interval: seed-level spread only
+SEEDS,content (MIXED_MATCHED - REAL_EXTENDED),all_500,single seed 8,0.6047,0.6421,-0.0374,,,,,no interval: seed-level spread only
+BUDGET,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,seed group g0 (3-seed OOF ensemble),0.6371,0.6768,-0.0397,-0.0869,0.0,165/103/85,178/98/72,
+BUDGET,exposure (REAL_EXTENDED - REAL_ORIGINAL),public_100,seed group g0 (3-seed OOF ensemble),0.6667,0.7257,-0.059,-0.1505,0.0111,36/22/14,41/22/9,
+BUDGET,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,seed group g1 (3-seed OOF ensemble),0.6316,0.6694,-0.0378,-0.0823,0.0045,150/75/100,166/80/84,
+BUDGET,exposure (REAL_EXTENDED - REAL_ORIGINAL),public_100,seed group g1 (3-seed OOF ensemble),0.7143,0.7184,-0.0042,-0.0906,0.0787,35/13/15,37/16/13,
+BUDGET,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,seed group g2 (3-seed OOF ensemble),0.6458,0.6667,-0.0209,-0.0717,0.024,165/96/85,175/100/75,
+BUDGET,exposure (REAL_EXTENDED - REAL_ORIGINAL),public_100,seed group g2 (3-seed OOF ensemble),0.6981,0.7455,-0.0473,-0.147,0.0506,37/19/13,41/19/9,
+SEEDS,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,single seed 0,0.6331,0.6446,-0.0115,,,,,no interval: seed-level spread only
+SEEDS,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,single seed 1,0.6027,0.6385,-0.0358,,,,,no interval: seed-level spread only
+SEEDS,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,single seed 2,0.6259,0.6694,-0.0435,,,,,no interval: seed-level spread only
+SEEDS,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,single seed 3,0.6458,0.6505,-0.0047,,,,,no interval: seed-level spread only
+SEEDS,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,single seed 4,0.6019,0.6417,-0.0398,,,,,no interval: seed-level spread only
+SEEDS,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,single seed 5,0.6215,0.6534,-0.0319,,,,,no interval: seed-level spread only
+SEEDS,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,single seed 6,0.5922,0.6007,-0.0085,,,,,no interval: seed-level spread only
+SEEDS,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,single seed 7,0.6184,0.6641,-0.0457,,,,,no interval: seed-level spread only
+SEEDS,exposure (REAL_EXTENDED - REAL_ORIGINAL),all_500,single seed 8,0.6421,0.5878,0.0543,,,,,no interval: seed-level spread only
+BUDGET,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,seed group g0 (3-seed OOF ensemble),0.6243,0.6768,-0.0526,-0.1117,-0.0061,157/96/93,178/98/72,
+BUDGET,link (MIXED_MATCHED - REAL_ORIGINAL),public_100,seed group g0 (3-seed OOF ensemble),0.6538,0.7257,-0.0718,-0.1886,0.0206,34/20/16,41/22/9,
+BUDGET,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,seed group g1 (3-seed OOF ensemble),0.6012,0.6694,-0.0682,-0.1331,-0.0105,153/106/97,166/80/84,
+BUDGET,link (MIXED_MATCHED - REAL_ORIGINAL),public_100,seed group g1 (3-seed OOF ensemble),0.6471,0.7184,-0.0714,-0.211,0.0453,33/19/17,37/16/13,
+BUDGET,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,seed group g2 (3-seed OOF ensemble),0.6277,0.6667,-0.039,-0.0889,0.0026,161/102/89,175/100/75,
+BUDGET,link (MIXED_MATCHED - REAL_ORIGINAL),public_100,seed group g2 (3-seed OOF ensemble),0.5981,0.7455,-0.1473,-0.2698,-0.049,32/25/18,41/19/9,
+SEEDS,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,single seed 0,0.5936,0.6446,-0.051,,,,,no interval: seed-level spread only
+SEEDS,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,single seed 1,0.5964,0.6385,-0.0421,,,,,no interval: seed-level spread only
+SEEDS,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,single seed 2,0.6457,0.6694,-0.0237,,,,,no interval: seed-level spread only
+SEEDS,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,single seed 3,0.6239,0.6505,-0.0266,,,,,no interval: seed-level spread only
+SEEDS,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,single seed 4,0.6299,0.6417,-0.0118,,,,,no interval: seed-level spread only
+SEEDS,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,single seed 5,0.642,0.6534,-0.0114,,,,,no interval: seed-level spread only
+SEEDS,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,single seed 6,0.6473,0.6007,0.0466,,,,,no interval: seed-level spread only
+SEEDS,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,single seed 7,0.5934,0.6641,-0.0707,,,,,no interval: seed-level spread only
+SEEDS,link (MIXED_MATCHED - REAL_ORIGINAL),all_500,single seed 8,0.6047,0.5878,0.0169,,,,,no interval: seed-level spread only
