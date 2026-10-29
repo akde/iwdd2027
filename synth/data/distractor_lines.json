@@ -1,0 +1,3811 @@
+{
+ "about": "synth/scripts/distractor_lines.py: allowlist of distractor lines; only status 'approved' is used",
+ "rule": {
+  "band": [
+   0.35,
+   1.0,
+   0.02
+  ],
+  "body_h": 1.95,
+  "dedup": 1.5,
+  "ext": 100.0,
+  "far": 0.04,
+  "line_h": 2.0,
+  "line_w": 1.0,
+  "margin": 0.0,
+  "max_lines": 20,
+  "max_run": 2.0,
+  "max_traffic": 0.2,
+  "min_inside": 3.0,
+  "step": 0.1
+ },
+ "plates": {
+  "2018-03-07_10-30-00_10-35-00_hospital_G436_r13_p0": {
+   "calib": "99c18a1b6ca0",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 83104,
+    "long entry or exit off the walkable area": 59673,
+    "never in view": 113959,
+    "no exit from the view": 228499,
+    "off the walkable area": 279765
+   },
+   "seed": 1672511361,
+   "structures": "f1cf4adb1dc0",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G505_r13_p0": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 1600925354,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G505_r13_p1": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 678108732,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G505_r13_p2": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 2976010118,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G505_r13_p3": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 3328540432,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G505_r13_p4": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 1476520627,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G505_r13_p5": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 788978213,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G505_r13_p6": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 3054472095,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G506_r13_p0": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 3521325385,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G506_r13_p1": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 2799966687,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-07_10-30-01_10-35-01_bus_G506_r13_p2": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 1072515173,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-07_10-30-04_10-35-04_hospital_G341_r13_p0": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 2297835628,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-07_10-30-04_10-35-04_hospital_G341_r13_p1": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 4293984506,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-07_10-30-04_10-35-04_hospital_G341_r13_p2": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 1727549760,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-07_10-30-04_10-35-04_hospital_G341_r13_p3": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 301949398,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-07_10-30-05_10-35-05_school_G336_r13_p0": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "parked vehicle": 64,
+    "same corridor": 32,
+    "short": 85
+   },
+   "seed": 381201268,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p0#00",
+     "E": [
+      15.096,
+      18.234
+     ],
+     "B": [
+      -23.714,
+      32.36
+     ],
+     "s_in": 1.4,
+     "s_out": 39.7,
+     "ins0": 1.4,
+     "ins1": 39.0,
+     "inside": 37.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p0#01",
+     "E": [
+      15.391,
+      18.844
+     ],
+     "B": [
+      -22.853,
+      30.902
+     ],
+     "s_in": 1.4,
+     "s_out": 38.4,
+     "ins0": 1.8,
+     "ins1": 38.4,
+     "inside": 36.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p0#02",
+     "E": [
+      17.598,
+      22.237
+     ],
+     "B": [
+      -22.579,
+      30.412
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 39.5,
+     "inside": 38.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_10-30-05_10-35-05_school_G336_r13_p1": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "parked vehicle": 64,
+    "same corridor": 32,
+    "short": 85
+   },
+   "seed": 1639947234,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p1#00",
+     "E": [
+      15.2,
+      18.422
+     ],
+     "B": [
+      -23.637,
+      32.174
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 39.0,
+     "inside": 37.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p1#01",
+     "E": [
+      15.353,
+      18.725
+     ],
+     "B": [
+      -22.7,
+      30.723
+     ],
+     "s_in": 1.4,
+     "s_out": 38.3,
+     "ins0": 1.6,
+     "ins1": 38.3,
+     "inside": 36.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p1#02",
+     "E": [
+      17.433,
+      22.063
+     ],
+     "B": [
+      -22.769,
+      30.608
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 39.5,
+     "inside": 38.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_10-30-05_10-35-05_school_G336_r13_p2": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "parked vehicle": 64,
+    "same corridor": 32,
+    "short": 85
+   },
+   "seed": 4172728920,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p2#00",
+     "E": [
+      15.353,
+      18.725
+     ],
+     "B": [
+      -22.7,
+      30.723
+     ],
+     "s_in": 1.4,
+     "s_out": 38.3,
+     "ins0": 1.6,
+     "ins1": 38.3,
+     "inside": 36.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p2#01",
+     "E": [
+      17.451,
+      22.012
+     ],
+     "B": [
+      -22.432,
+      30.127
+     ],
+     "s_in": 1.4,
+     "s_out": 39.1,
+     "ins0": 1.7,
+     "ins1": 39.1,
+     "inside": 37.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p2#02",
+     "E": [
+      15.479,
+      18.813
+     ],
+     "B": [
+      -23.76,
+      32.324
+     ],
+     "s_in": 1.5,
+     "s_out": 39.8,
+     "ins0": 1.9,
+     "ins1": 39.1,
+     "inside": 37.2,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_10-30-05_10-35-05_school_G336_r13_p3": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "parked vehicle": 64,
+    "same corridor": 33,
+    "short": 85
+   },
+   "seed": 2410805966,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p3#00",
+     "E": [
+      17.475,
+      22.135
+     ],
+     "B": [
+      -22.505,
+      30.269
+     ],
+     "s_in": 1.4,
+     "s_out": 39.2,
+     "ins0": 1.4,
+     "ins1": 39.2,
+     "inside": 37.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p3#01",
+     "E": [
+      15.127,
+      18.405
+     ],
+     "B": [
+      -23.261,
+      31.623
+     ],
+     "s_in": 1.4,
+     "s_out": 39.0,
+     "ins0": 1.4,
+     "ins1": 39.0,
+     "inside": 37.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_10-30-05_10-35-05_school_G336_r13_p4": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "parked vehicle": 64,
+    "same corridor": 32,
+    "short": 85
+   },
+   "seed": 299200365,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p4#00",
+     "E": [
+      15.344,
+      18.727
+     ],
+     "B": [
+      -23.612,
+      32.141
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.6,
+     "ins1": 39.1,
+     "inside": 37.5,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p4#01",
+     "E": [
+      15.353,
+      18.725
+     ],
+     "B": [
+      -22.7,
+      30.723
+     ],
+     "s_in": 1.4,
+     "s_out": 38.3,
+     "ins0": 1.6,
+     "ins1": 38.3,
+     "inside": 36.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p4#02",
+     "E": [
+      17.664,
+      22.432
+     ],
+     "B": [
+      -22.485,
+      30.236
+     ],
+     "s_in": 1.4,
+     "s_out": 39.4,
+     "ins0": 1.4,
+     "ins1": 39.4,
+     "inside": 38.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_10-30-05_10-35-05_school_G336_r13_p5": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "parked vehicle": 64,
+    "same corridor": 32,
+    "short": 85
+   },
+   "seed": 1725063163,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p5#00",
+     "E": [
+      15.479,
+      18.813
+     ],
+     "B": [
+      -23.76,
+      32.324
+     ],
+     "s_in": 1.5,
+     "s_out": 39.8,
+     "ins0": 1.9,
+     "ins1": 39.1,
+     "inside": 37.2,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p5#01",
+     "E": [
+      17.598,
+      22.237
+     ],
+     "B": [
+      -22.579,
+      30.412
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 39.5,
+     "inside": 38.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p5#02",
+     "E": [
+      15.253,
+      18.539
+     ],
+     "B": [
+      -22.885,
+      30.931
+     ],
+     "s_in": 1.4,
+     "s_out": 38.4,
+     "ins0": 1.4,
+     "ins1": 38.4,
+     "inside": 37.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_10-30-05_10-35-05_school_G336_r13_p6": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "parked vehicle": 64,
+    "same corridor": 32,
+    "short": 85
+   },
+   "seed": 4292546113,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p6#00",
+     "E": [
+      14.852,
+      17.965
+     ],
+     "B": [
+      -23.739,
+      32.394
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 38.8,
+     "inside": 37.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p6#01",
+     "E": [
+      17.598,
+      22.237
+     ],
+     "B": [
+      -22.579,
+      30.412
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 39.5,
+     "inside": 38.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_10-30-05_10-35-05_school_G336_r13_p6#02",
+     "E": [
+      15.391,
+      18.844
+     ],
+     "B": [
+      -22.853,
+      30.902
+     ],
+     "s_in": 1.4,
+     "s_out": 38.4,
+     "ins0": 1.8,
+     "ins1": 38.4,
+     "inside": 36.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_17-20-00_17-25-00_bus_G506_r13_p0": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 3704532528,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-07_17-20-00_17-25-00_bus_G506_r13_p1": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 2882117286,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-07_17-20-00_17-25-00_bus_G506_r13_p2": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 851496732,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-07_17-20-00_17-25-00_school_G336_r13_p0": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "same corridor": 95,
+    "short": 85
+   },
+   "seed": 1694901207,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p0#00",
+     "E": [
+      -15.464,
+      18.923
+     ],
+     "B": [
+      18.146,
+      23.348
+     ],
+     "s_in": 1.5,
+     "s_out": 32.3,
+     "ins0": 1.5,
+     "ins1": 32.3,
+     "inside": 30.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p0#01",
+     "E": [
+      17.664,
+      22.432
+     ],
+     "B": [
+      -22.485,
+      30.236
+     ],
+     "s_in": 1.4,
+     "s_out": 39.4,
+     "ins0": 1.4,
+     "ins1": 39.4,
+     "inside": 38.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p0#02",
+     "E": [
+      14.916,
+      18.034
+     ],
+     "B": [
+      -23.517,
+      32.022
+     ],
+     "s_in": 1.4,
+     "s_out": 39.2,
+     "ins0": 1.4,
+     "ins1": 38.9,
+     "inside": 37.5,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p0#03",
+     "E": [
+      -16.314,
+      20.262
+     ],
+     "B": [
+      18.326,
+      23.597
+     ],
+     "s_in": 1.5,
+     "s_out": 33.3,
+     "ins0": 1.9,
+     "ins1": 33.3,
+     "inside": 31.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_17-20-00_17-25-00_school_G336_r13_p1": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "same corridor": 96,
+    "short": 85
+   },
+   "seed": 302060353,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p1#00",
+     "E": [
+      -15.967,
+      19.793
+     ],
+     "B": [
+      17.976,
+      23.061
+     ],
+     "s_in": 1.4,
+     "s_out": 32.6,
+     "ins0": 1.4,
+     "ins1": 32.6,
+     "inside": 31.2,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p1#01",
+     "E": [
+      15.229,
+      18.591
+     ],
+     "B": [
+      -23.178,
+      31.442
+     ],
+     "s_in": 1.4,
+     "s_out": 38.8,
+     "ins0": 1.4,
+     "ins1": 38.8,
+     "inside": 37.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p1#02",
+     "E": [
+      17.451,
+      22.012
+     ],
+     "B": [
+      -22.432,
+      30.127
+     ],
+     "s_in": 1.4,
+     "s_out": 39.1,
+     "ins0": 1.7,
+     "ins1": 39.1,
+     "inside": 37.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_17-20-00_17-25-00_school_G336_r13_p2": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "same corridor": 95,
+    "short": 85
+   },
+   "seed": 2332574459,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p2#00",
+     "E": [
+      -15.967,
+      19.793
+     ],
+     "B": [
+      17.976,
+      23.061
+     ],
+     "s_in": 1.4,
+     "s_out": 32.6,
+     "ins0": 1.4,
+     "ins1": 32.6,
+     "inside": 31.2,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p2#01",
+     "E": [
+      14.852,
+      17.965
+     ],
+     "B": [
+      -23.739,
+      32.394
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 38.8,
+     "inside": 37.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p2#02",
+     "E": [
+      17.64,
+      22.309
+     ],
+     "B": [
+      -22.41,
+      30.094
+     ],
+     "s_in": 1.4,
+     "s_out": 39.2,
+     "ins0": 1.4,
+     "ins1": 39.2,
+     "inside": 37.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-07_17-20-00_17-25-00_school_G336_r13_p2#03",
+     "E": [
+      15.353,
+      18.725
+     ],
+     "B": [
+      -22.7,
+      30.723
+     ],
+     "s_in": 1.4,
+     "s_out": 38.3,
+     "ins0": 1.6,
+     "ins1": 38.3,
+     "inside": 36.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-07_17-20-01_17-25-01_hospital_G436_r13_p0": {
+   "calib": "99c18a1b6ca0",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 83104,
+    "long entry or exit off the walkable area": 59673,
+    "never in view": 113959,
+    "no exit from the view": 228499,
+    "off the walkable area": 279765
+   },
+   "seed": 1657264195,
+   "structures": "f1cf4adb1dc0",
+   "lines": []
+  },
+  "2018-03-07_17-20-01_17-25-01_hospital_G436_r13_p1": {
+   "calib": "99c18a1b6ca0",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 83104,
+    "long entry or exit off the walkable area": 59673,
+    "never in view": 113959,
+    "no exit from the view": 228499,
+    "off the walkable area": 279765
+   },
+   "seed": 364964053,
+   "structures": "f1cf4adb1dc0",
+   "lines": []
+  },
+  "2018-03-07_17-20-05_17-25-05_hospital_G341_r13_p0": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 2306971566,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-07_17-20-05_17-25-05_hospital_G341_r13_p1": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 4270237496,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-07_17-20-05_17-25-05_hospital_G341_r13_p2": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 1737488002,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-11_13-55-01_14-00-01_bus_G505_r13_p0": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 574065241,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-11_13-55-01_14-00-01_bus_G505_r13_p1": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 1429256911,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-11_13-55-01_14-00-01_bus_G505_r13_p2": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 3426347893,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-11_13-55-01_14-00-01_bus_G505_r13_p3": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 3141458915,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-11_13-55-01_14-00-01_bus_G506_r13_p0": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 2897776058,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-11_13-55-01_14-00-01_bus_G506_r13_p1": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 3686776108,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-11_13-55-01_14-00-01_bus_G506_r13_p2": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 1119284374,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-11_13-55-01_14-00-01_bus_G506_r13_p3": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 900848640,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-11_13-55-01_14-00-01_school_G336_r13_p0": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "parked vehicle": 99,
+    "short": 85
+   },
+   "seed": 2389384857,
+   "structures": "b753638f0eb7",
+   "lines": []
+  },
+  "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0": {
+   "calib": "de6be5fbe963",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 2,
+    "long entry or exit off the walkable area": 14,
+    "never in view": 1019,
+    "off the walkable area": 5642,
+    "parked vehicle": 1,
+    "same corridor": 125,
+    "short": 3,
+    "structure": 117
+   },
+   "seed": 1852457009,
+   "structures": "da2737656d57",
+   "lines": [
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#00",
+     "E": [
+      -7.96,
+      13.706
+     ],
+     "B": [
+      10.525,
+      20.802
+     ],
+     "s_in": 1.4,
+     "s_out": 18.1,
+     "ins0": 1.4,
+     "ins1": 18.0,
+     "inside": 16.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#01",
+     "E": [
+      -8.101,
+      14.063
+     ],
+     "B": [
+      8.706,
+      15.829
+     ],
+     "s_in": 1.5,
+     "s_out": 15.4,
+     "ins0": 1.5,
+     "ins1": 15.4,
+     "inside": 13.9,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#02",
+     "E": [
+      -0.163,
+      6.984
+     ],
+     "B": [
+      9.442,
+      19.277
+     ],
+     "s_in": 4.6,
+     "s_out": 13.0,
+     "ins0": 4.6,
+     "ins1": 12.9,
+     "inside": 8.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#03",
+     "E": [
+      -7.989,
+      13.806
+     ],
+     "B": [
+      9.324,
+      17.486
+     ],
+     "s_in": 1.4,
+     "s_out": 16.1,
+     "ins0": 1.4,
+     "ins1": 16.1,
+     "inside": 14.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#04",
+     "E": [
+      -6.071,
+      9.067
+     ],
+     "B": [
+      11.494,
+      24.069
+     ],
+     "s_in": 2.4,
+     "s_out": 21.1,
+     "ins0": 2.4,
+     "ins1": 21.1,
+     "inside": 18.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#05",
+     "E": [
+      -6.489,
+      9.916
+     ],
+     "B": [
+      8.826,
+      16.575
+     ],
+     "s_in": 1.7,
+     "s_out": 15.1,
+     "ins0": 2.1,
+     "ins1": 15.1,
+     "inside": 13.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#06",
+     "E": [
+      8.057,
+      13.894
+     ],
+     "B": [
+      -8.234,
+      14.462
+     ],
+     "s_in": 1.5,
+     "s_out": 14.8,
+     "ins0": 1.5,
+     "ins1": 14.8,
+     "inside": 13.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#07",
+     "E": [
+      5.951,
+      8.543
+     ],
+     "B": [
+      -8.154,
+      14.971
+     ],
+     "s_in": 4.9,
+     "s_out": 13.9,
+     "ins0": 4.9,
+     "ins1": 13.9,
+     "inside": 9.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#08",
+     "E": [
+      -6.391,
+      9.683
+     ],
+     "B": [
+      9.977,
+      19.911
+     ],
+     "s_in": 1.7,
+     "s_out": 17.6,
+     "ins0": 2.1,
+     "ins1": 17.6,
+     "inside": 15.5,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#09",
+     "E": [
+      0.348,
+      7.0
+     ],
+     "B": [
+      11.529,
+      24.894
+     ],
+     "s_in": 4.3,
+     "s_out": 17.6,
+     "ins0": 4.3,
+     "ins1": 17.6,
+     "inside": 13.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#10",
+     "E": [
+      0.143,
+      6.958
+     ],
+     "B": [
+      12.555,
+      27.616
+     ],
+     "s_in": 4.3,
+     "s_out": 20.4,
+     "ins0": 4.3,
+     "ins1": 20.4,
+     "inside": 16.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#11",
+     "E": [
+      -6.292,
+      9.48
+     ],
+     "B": [
+      10.56,
+      21.5
+     ],
+     "s_in": 1.9,
+     "s_out": 18.9,
+     "ins0": 2.1,
+     "ins1": 18.6,
+     "inside": 16.5,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#12",
+     "E": [
+      -6.149,
+      9.278
+     ],
+     "B": [
+      12.77,
+      27.547
+     ],
+     "s_in": 1.9,
+     "s_out": 24.2,
+     "ins0": 2.2,
+     "ins1": 23.8,
+     "inside": 21.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#13",
+     "E": [
+      -7.464,
+      12.321
+     ],
+     "B": [
+      11.91,
+      24.902
+     ],
+     "s_in": 1.5,
+     "s_out": 21.3,
+     "ins0": 1.6,
+     "ins1": 21.3,
+     "inside": 19.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#14",
+     "E": [
+      -0.419,
+      6.977
+     ],
+     "B": [
+      10.455,
+      21.944
+     ],
+     "s_in": 4.5,
+     "s_out": 15.7,
+     "ins0": 4.5,
+     "ins1": 15.7,
+     "inside": 11.2,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#15",
+     "E": [
+      -7.815,
+      13.285
+     ],
+     "B": [
+      11.253,
+      23.001
+     ],
+     "s_in": 1.4,
+     "s_out": 19.7,
+     "ins0": 1.4,
+     "ins1": 19.7,
+     "inside": 18.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#16",
+     "E": [
+      6.262,
+      9.226
+     ],
+     "B": [
+      -8.571,
+      15.985
+     ],
+     "s_in": 3.3,
+     "s_out": 14.7,
+     "ins0": 3.3,
+     "ins1": 14.1,
+     "inside": 10.8,
+     "traffic": 0.0,
+     "status": "rejected",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#17",
+     "E": [
+      -0.146,
+      6.984
+     ],
+     "B": [
+      13.608,
+      30.334
+     ],
+     "s_in": 4.2,
+     "s_out": 23.2,
+     "ins0": 4.2,
+     "ins1": 22.0,
+     "inside": 17.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#18",
+     "E": [
+      -8.158,
+      14.09
+     ],
+     "B": [
+      9.862,
+      19.087
+     ],
+     "s_in": 1.5,
+     "s_out": 17.2,
+     "ins0": 1.5,
+     "ins1": 17.2,
+     "inside": 15.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p0#19",
+     "E": [
+      -7.517,
+      12.444
+     ],
+     "B": [
+      9.882,
+      19.298
+     ],
+     "s_in": 1.4,
+     "s_out": 17.1,
+     "ins0": 2.0,
+     "ins1": 17.1,
+     "inside": 15.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3": {
+   "calib": "de6be5fbe963",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 1,
+    "long entry or exit off the walkable area": 8,
+    "never in view": 717,
+    "off the walkable area": 3747,
+    "parked vehicle": 2,
+    "same corridor": 56,
+    "short": 5,
+    "structure": 64
+   },
+   "seed": 4150464907,
+   "structures": "da2737656d57",
+   "lines": [
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#00",
+     "E": [
+      -7.645,
+      12.951
+     ],
+     "B": [
+      11.066,
+      22.485
+     ],
+     "s_in": 1.4,
+     "s_out": 19.3,
+     "ins0": 1.4,
+     "ins1": 19.3,
+     "inside": 17.9,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#01",
+     "E": [
+      -6.071,
+      9.055
+     ],
+     "B": [
+      13.379,
+      29.197
+     ],
+     "s_in": 2.2,
+     "s_out": 25.8,
+     "ins0": 2.2,
+     "ins1": 24.7,
+     "inside": 22.5,
+     "traffic": 0.0,
+     "status": "rejected",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#02",
+     "E": [
+      -8.132,
+      14.017
+     ],
+     "B": [
+      8.9,
+      16.411
+     ],
+     "s_in": 1.5,
+     "s_out": 15.7,
+     "ins0": 1.5,
+     "ins1": 15.7,
+     "inside": 14.2,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#03",
+     "E": [
+      -6.419,
+      9.712
+     ],
+     "B": [
+      8.746,
+      16.464
+     ],
+     "s_in": 2.2,
+     "s_out": 15.0,
+     "ins0": 2.2,
+     "ins1": 15.0,
+     "inside": 12.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#04",
+     "E": [
+      -5.944,
+      8.666
+     ],
+     "B": [
+      11.063,
+      22.936
+     ],
+     "s_in": 3.0,
+     "s_out": 20.2,
+     "ins0": 3.0,
+     "ins1": 20.2,
+     "inside": 17.2,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#05",
+     "E": [
+      7.796,
+      13.346
+     ],
+     "B": [
+      -8.482,
+      15.345
+     ],
+     "s_in": 1.4,
+     "s_out": 14.9,
+     "ins0": 1.6,
+     "ins1": 14.5,
+     "inside": 12.9,
+     "traffic": 0.0,
+     "status": "rejected",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#06",
+     "E": [
+      -7.599,
+      12.599
+     ],
+     "B": [
+      9.823,
+      19.113
+     ],
+     "s_in": 1.5,
+     "s_out": 17.0,
+     "ins0": 1.7,
+     "ins1": 17.0,
+     "inside": 15.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#07",
+     "E": [
+      -6.288,
+      9.534
+     ],
+     "B": [
+      10.223,
+      20.462
+     ],
+     "s_in": 1.9,
+     "s_out": 18.0,
+     "ins0": 2.1,
+     "ins1": 18.0,
+     "inside": 15.9,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#08",
+     "E": [
+      -0.06,
+      6.977
+     ],
+     "B": [
+      11.2,
+      23.988
+     ],
+     "s_in": 4.4,
+     "s_out": 17.2,
+     "ins0": 4.4,
+     "ins1": 17.2,
+     "inside": 12.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#09",
+     "E": [
+      -8.376,
+      14.633
+     ],
+     "B": [
+      10.55,
+      20.783
+     ],
+     "s_in": 1.5,
+     "s_out": 18.3,
+     "ins0": 1.9,
+     "ins1": 18.1,
+     "inside": 16.2,
+     "traffic": 0.0,
+     "status": "rejected",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#10",
+     "E": [
+      -7.747,
+      13.253
+     ],
+     "B": [
+      7.753,
+      13.253
+     ],
+     "s_in": 1.5,
+     "s_out": 14.0,
+     "ins0": 1.6,
+     "ins1": 13.5,
+     "inside": 11.9,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#11",
+     "E": [
+      -8.353,
+      14.588
+     ],
+     "B": [
+      9.771,
+      18.772
+     ],
+     "s_in": 1.5,
+     "s_out": 17.1,
+     "ins0": 1.7,
+     "ins1": 17.1,
+     "inside": 15.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#12",
+     "E": [
+      5.852,
+      8.241
+     ],
+     "B": [
+      -8.17,
+      15.08
+     ],
+     "s_in": 5.4,
+     "s_out": 14.0,
+     "ins0": 5.4,
+     "ins1": 14.0,
+     "inside": 8.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#13",
+     "E": [
+      -0.506,
+      7.051
+     ],
+     "B": [
+      9.353,
+      19.011
+     ],
+     "s_in": 4.6,
+     "s_out": 13.1,
+     "ins0": 4.6,
+     "ins1": 13.1,
+     "inside": 8.5,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#14",
+     "E": [
+      -5.575,
+      7.781
+     ],
+     "B": [
+      13.094,
+      28.515
+     ],
+     "s_in": 3.8,
+     "s_out": 25.6,
+     "ins0": 3.8,
+     "ins1": 24.8,
+     "inside": 21.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#15",
+     "E": [
+      1.041,
+      6.892
+     ],
+     "B": [
+      13.066,
+      29.038
+     ],
+     "s_in": 4.2,
+     "s_out": 20.6,
+     "ins0": 4.2,
+     "ins1": 20.6,
+     "inside": 16.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#16",
+     "E": [
+      -0.778,
+      7.003
+     ],
+     "B": [
+      11.916,
+      25.822
+     ],
+     "s_in": 4.3,
+     "s_out": 19.6,
+     "ins0": 4.3,
+     "ins1": 19.6,
+     "inside": 15.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#17",
+     "E": [
+      -5.793,
+      8.416
+     ],
+     "B": [
+      12.253,
+      26.149
+     ],
+     "s_in": 3.1,
+     "s_out": 23.1,
+     "ins0": 3.1,
+     "ins1": 23.1,
+     "inside": 20.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#18",
+     "E": [
+      6.255,
+      9.363
+     ],
+     "B": [
+      -7.979,
+      14.403
+     ],
+     "s_in": 3.7,
+     "s_out": 13.6,
+     "ins0": 3.7,
+     "ins1": 13.6,
+     "inside": 9.9,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_13-55-04_14-00-04_school_G300_r13_p3#19",
+     "E": [
+      -7.41,
+      12.183
+     ],
+     "B": [
+      12.331,
+      26.006
+     ],
+     "s_in": 1.5,
+     "s_out": 22.3,
+     "ins0": 1.8,
+     "ins1": 22.3,
+     "inside": 20.5,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-11_13-55-08_14-00-08_hospital_G341_r13_p0": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 374407829,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-11_13-55-08_14-00-08_hospital_G341_r13_p1": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 1633038851,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-11_13-55-08_14-00-08_hospital_G341_r13_p2": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 4167001017,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-11_13-55-08_14-00-08_hospital_G341_r13_p3": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 2404930351,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-11_23-55-00_00-00-00_bus_G505_r13_p0": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 2564985388,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-11_23-55-00_00-00-00_bus_G505_r13_p1": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 4024804026,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-11_23-55-00_00-00-00_bus_G505_r13_p2": {
+   "calib": "a170a642f694",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 59,
+    "long entry or exit off the walkable area": 13080,
+    "never in view": 918,
+    "no exit from the view": 93378,
+    "off the walkable area": 71125
+   },
+   "seed": 1995240192,
+   "structures": "cd1677438101",
+   "lines": []
+  },
+  "2018-03-11_23-55-00_00-00-00_bus_G506_r13_p0": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 376280527,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-11_23-55-00_00-00-00_bus_G506_r13_p1": {
+   "calib": "231524e0fb73",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 483,
+    "long entry or exit off the walkable area": 10894,
+    "never in view": 14269,
+    "no exit from the view": 96388,
+    "off the walkable area": 171366
+   },
+   "seed": 1634379097,
+   "structures": "d05496fec3f5",
+   "lines": []
+  },
+  "2018-03-11_23-55-01_00-00-01_school_G336_r13_p0": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "same corridor": 95,
+    "short": 85
+   },
+   "seed": 2928929016,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p0#00",
+     "E": [
+      -15.596,
+      19.158
+     ],
+     "B": [
+      18.311,
+      23.622
+     ],
+     "s_in": 1.5,
+     "s_out": 32.6,
+     "ins0": 1.5,
+     "ins1": 32.6,
+     "inside": 31.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p0#01",
+     "E": [
+      15.253,
+      18.539
+     ],
+     "B": [
+      -22.885,
+      30.931
+     ],
+     "s_in": 1.4,
+     "s_out": 38.4,
+     "ins0": 1.4,
+     "ins1": 38.4,
+     "inside": 37.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p0#02",
+     "E": [
+      14.852,
+      17.965
+     ],
+     "B": [
+      -23.739,
+      32.394
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 38.8,
+     "inside": 37.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p0#03",
+     "E": [
+      17.598,
+      22.237
+     ],
+     "B": [
+      -22.579,
+      30.412
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 39.5,
+     "inside": 38.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-11_23-55-01_00-00-01_school_G336_r13_p1": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "same corridor": 95,
+    "short": 85
+   },
+   "seed": 3650410606,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p1#00",
+     "E": [
+      -15.768,
+      19.551
+     ],
+     "B": [
+      17.946,
+      23.095
+     ],
+     "s_in": 1.4,
+     "s_out": 32.4,
+     "ins0": 1.4,
+     "ins1": 32.4,
+     "inside": 31.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p1#01",
+     "E": [
+      14.959,
+      18.151
+     ],
+     "B": [
+      -23.662,
+      32.208
+     ],
+     "s_in": 1.4,
+     "s_out": 39.4,
+     "ins0": 1.4,
+     "ins1": 38.9,
+     "inside": 37.5,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p1#02",
+     "E": [
+      17.433,
+      22.063
+     ],
+     "B": [
+      -22.769,
+      30.608
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.4,
+     "ins1": 39.5,
+     "inside": 38.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p1#03",
+     "E": [
+      15.353,
+      18.725
+     ],
+     "B": [
+      -22.7,
+      30.723
+     ],
+     "s_in": 1.4,
+     "s_out": 38.3,
+     "ins0": 1.6,
+     "ins1": 38.3,
+     "inside": 36.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-11_23-55-01_00-00-01_school_G336_r13_p2": {
+   "calib": "71d56a06771a",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 29,
+    "long entry or exit off the walkable area": 4328,
+    "never in view": 5588,
+    "no exit from the view": 83924,
+    "off the walkable area": 85587,
+    "same corridor": 94,
+    "short": 85
+   },
+   "seed": 1084066260,
+   "structures": "b753638f0eb7",
+   "lines": [
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p2#00",
+     "E": [
+      -15.754,
+      19.374
+     ],
+     "B": [
+      18.708,
+      24.217
+     ],
+     "s_in": 1.5,
+     "s_out": 33.2,
+     "ins0": 1.5,
+     "ins1": 32.6,
+     "inside": 31.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p2#01",
+     "E": [
+      15.344,
+      18.727
+     ],
+     "B": [
+      -23.612,
+      32.141
+     ],
+     "s_in": 1.4,
+     "s_out": 39.5,
+     "ins0": 1.6,
+     "ins1": 39.1,
+     "inside": 37.5,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p2#02",
+     "E": [
+      -15.642,
+      19.313
+     ],
+     "B": [
+      17.774,
+      22.825
+     ],
+     "s_in": 1.4,
+     "s_out": 32.1,
+     "ins0": 1.4,
+     "ins1": 32.1,
+     "inside": 30.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p2#03",
+     "E": [
+      15.353,
+      18.725
+     ],
+     "B": [
+      -22.7,
+      30.723
+     ],
+     "s_in": 1.4,
+     "s_out": 38.3,
+     "ins0": 1.6,
+     "ins1": 38.3,
+     "inside": 36.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-01_00-00-01_school_G336_r13_p2#04",
+     "E": [
+      17.64,
+      22.309
+     ],
+     "B": [
+      -22.41,
+      30.094
+     ],
+     "s_in": 1.4,
+     "s_out": 39.2,
+     "ins0": 1.4,
+     "ins1": 39.2,
+     "inside": 37.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0": {
+   "calib": "de6be5fbe963",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 1,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 702,
+    "off the walkable area": 3613,
+    "same corridor": 68,
+    "short": 3,
+    "structure": 57
+   },
+   "seed": 1223840818,
+   "structures": "da2737656d57",
+   "lines": [
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#00",
+     "E": [
+      -7.917,
+      13.616
+     ],
+     "B": [
+      11.413,
+      23.254
+     ],
+     "s_in": 1.4,
+     "s_out": 19.9,
+     "ins0": 1.4,
+     "ins1": 19.9,
+     "inside": 18.5,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#01",
+     "E": [
+      -7.505,
+      12.564
+     ],
+     "B": [
+      10.752,
+      21.667
+     ],
+     "s_in": 1.4,
+     "s_out": 18.7,
+     "ins0": 1.5,
+     "ins1": 18.7,
+     "inside": 17.2,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#02",
+     "E": [
+      -8.101,
+      14.025
+     ],
+     "B": [
+      8.547,
+      15.335
+     ],
+     "s_in": 1.5,
+     "s_out": 15.2,
+     "ins0": 1.5,
+     "ins1": 15.2,
+     "inside": 13.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#03",
+     "E": [
+      -6.254,
+      9.328
+     ],
+     "B": [
+      9.325,
+      18.142
+     ],
+     "s_in": 2.6,
+     "s_out": 16.2,
+     "ins0": 2.6,
+     "ins1": 16.2,
+     "inside": 13.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#04",
+     "E": [
+      -6.149,
+      9.129
+     ],
+     "B": [
+      11.29,
+      23.504
+     ],
+     "s_in": 2.3,
+     "s_out": 20.7,
+     "ins0": 2.3,
+     "ins1": 20.7,
+     "inside": 18.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#05",
+     "E": [
+      -5.797,
+      8.447
+     ],
+     "B": [
+      13.064,
+      28.323
+     ],
+     "s_in": 3.0,
+     "s_out": 25.1,
+     "ins0": 3.0,
+     "ins1": 24.4,
+     "inside": 21.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#06",
+     "E": [
+      -8.283,
+      14.533
+     ],
+     "B": [
+      10.223,
+      20.014
+     ],
+     "s_in": 1.4,
+     "s_out": 17.7,
+     "ins0": 1.7,
+     "ins1": 17.7,
+     "inside": 16.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#07",
+     "E": [
+      5.797,
+      8.129
+     ],
+     "B": [
+      -8.134,
+      14.923
+     ],
+     "s_in": 5.6,
+     "s_out": 13.9,
+     "ins0": 5.6,
+     "ins1": 13.9,
+     "inside": 8.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#08",
+     "E": [
+      -0.012,
+      6.991
+     ],
+     "B": [
+      10.636,
+      22.484
+     ],
+     "s_in": 4.4,
+     "s_out": 15.8,
+     "ins0": 4.4,
+     "ins1": 15.6,
+     "inside": 11.2,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#09",
+     "E": [
+      6.36,
+      9.544
+     ],
+     "B": [
+      -8.589,
+      16.044
+     ],
+     "s_in": 2.6,
+     "s_out": 14.7,
+     "ins0": 2.8,
+     "ins1": 14.1,
+     "inside": 11.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#10",
+     "E": [
+      -7.601,
+      12.773
+     ],
+     "B": [
+      10.043,
+      19.546
+     ],
+     "s_in": 1.4,
+     "s_out": 17.2,
+     "ins0": 1.5,
+     "ins1": 17.2,
+     "inside": 15.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#11",
+     "E": [
+      -7.973,
+      13.79
+     ],
+     "B": [
+      9.136,
+      16.96
+     ],
+     "s_in": 1.4,
+     "s_out": 15.8,
+     "ins0": 1.4,
+     "ins1": 15.8,
+     "inside": 14.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#12",
+     "E": [
+      -6.072,
+      8.963
+     ],
+     "B": [
+      12.065,
+      25.582
+     ],
+     "s_in": 2.4,
+     "s_out": 22.5,
+     "ins0": 2.4,
+     "ins1": 22.5,
+     "inside": 20.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#13",
+     "E": [
+      -7.766,
+      13.191
+     ],
+     "B": [
+      7.734,
+      13.327
+     ],
+     "s_in": 1.5,
+     "s_out": 14.1,
+     "ins0": 1.7,
+     "ins1": 13.6,
+     "inside": 11.9,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#14",
+     "E": [
+      -0.347,
+      6.983
+     ],
+     "B": [
+      9.759,
+      20.153
+     ],
+     "s_in": 4.6,
+     "s_out": 14.0,
+     "ins0": 4.6,
+     "ins1": 14.0,
+     "inside": 9.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#15",
+     "E": [
+      -6.398,
+      9.621
+     ],
+     "B": [
+      8.799,
+      16.547
+     ],
+     "s_in": 2.3,
+     "s_out": 15.1,
+     "ins0": 2.3,
+     "ins1": 15.1,
+     "inside": 12.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#16",
+     "E": [
+      6.429,
+      9.637
+     ],
+     "B": [
+      -8.08,
+      14.492
+     ],
+     "s_in": 3.0,
+     "s_out": 13.7,
+     "ins0": 3.0,
+     "ins1": 13.7,
+     "inside": 10.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#17",
+     "E": [
+      5.819,
+      8.115
+     ],
+     "B": [
+      -8.73,
+      16.515
+     ],
+     "s_in": 5.0,
+     "s_out": 15.1,
+     "ins0": 5.0,
+     "ins1": 14.3,
+     "inside": 9.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#18",
+     "E": [
+      7.91,
+      13.458
+     ],
+     "B": [
+      -8.566,
+      15.481
+     ],
+     "s_in": 1.5,
+     "s_out": 15.1,
+     "ins0": 1.6,
+     "ins1": 14.6,
+     "inside": 13.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p0#19",
+     "E": [
+      0.165,
+      6.971
+     ],
+     "B": [
+      12.131,
+      26.496
+     ],
+     "s_in": 4.3,
+     "s_out": 19.4,
+     "ins0": 4.3,
+     "ins1": 19.4,
+     "inside": 15.1,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1": {
+   "calib": "de6be5fbe963",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "long entry or exit off the walkable area": 7,
+    "never in view": 633,
+    "off the walkable area": 3286,
+    "same corridor": 62,
+    "short": 1,
+    "structure": 67
+   },
+   "seed": 1073046692,
+   "structures": "da2737656d57",
+   "lines": [
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#00",
+     "E": [
+      8.097,
+      14.187
+     ],
+     "B": [
+      -8.387,
+      14.907
+     ],
+     "s_in": 1.4,
+     "s_out": 15.0,
+     "ins0": 1.4,
+     "ins1": 14.8,
+     "inside": 13.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#01",
+     "E": [
+      -7.468,
+      12.434
+     ],
+     "B": [
+      11.845,
+      24.738
+     ],
+     "s_in": 1.4,
+     "s_out": 21.2,
+     "ins0": 1.6,
+     "ins1": 21.2,
+     "inside": 19.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#02",
+     "E": [
+      6.47,
+      9.98
+     ],
+     "B": [
+      -7.949,
+      14.115
+     ],
+     "s_in": 2.2,
+     "s_out": 13.4,
+     "ins0": 2.7,
+     "ins1": 13.4,
+     "inside": 10.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#03",
+     "E": [
+      -7.786,
+      13.254
+     ],
+     "B": [
+      7.812,
+      13.526
+     ],
+     "s_in": 1.5,
+     "s_out": 14.2,
+     "ins0": 1.6,
+     "ins1": 13.9,
+     "inside": 12.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#04",
+     "E": [
+      -8.317,
+      14.723
+     ],
+     "B": [
+      9.363,
+      17.523
+     ],
+     "s_in": 1.4,
+     "s_out": 16.4,
+     "ins0": 1.7,
+     "ins1": 16.3,
+     "inside": 14.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#05",
+     "E": [
+      -7.738,
+      13.11
+     ],
+     "B": [
+      9.181,
+      17.172
+     ],
+     "s_in": 1.4,
+     "s_out": 15.8,
+     "ins0": 1.4,
+     "ins1": 15.8,
+     "inside": 14.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#06",
+     "E": [
+      -7.71,
+      13.081
+     ],
+     "B": [
+      10.278,
+      20.348
+     ],
+     "s_in": 1.4,
+     "s_out": 17.8,
+     "ins0": 1.4,
+     "ins1": 17.8,
+     "inside": 16.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#07",
+     "E": [
+      -6.111,
+      8.942
+     ],
+     "B": [
+      10.752,
+      22.117
+     ],
+     "s_in": 2.7,
+     "s_out": 19.5,
+     "ins0": 2.7,
+     "ins1": 19.5,
+     "inside": 16.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#08",
+     "E": [
+      -6.21,
+      9.206
+     ],
+     "B": [
+      9.733,
+      19.169
+     ],
+     "s_in": 2.6,
+     "s_out": 17.0,
+     "ins0": 2.6,
+     "ins1": 17.0,
+     "inside": 14.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#09",
+     "E": [
+      -5.988,
+      8.871
+     ],
+     "B": [
+      11.928,
+      25.288
+     ],
+     "s_in": 2.6,
+     "s_out": 22.3,
+     "ins0": 2.6,
+     "ins1": 22.3,
+     "inside": 19.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#10",
+     "E": [
+      -5.604,
+      7.929
+     ],
+     "B": [
+      12.81,
+      27.675
+     ],
+     "s_in": 3.7,
+     "s_out": 24.7,
+     "ins0": 3.7,
+     "ins1": 24.3,
+     "inside": 20.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#11",
+     "E": [
+      0.348,
+      7.0
+     ],
+     "B": [
+      11.529,
+      24.894
+     ],
+     "s_in": 4.3,
+     "s_out": 17.6,
+     "ins0": 4.3,
+     "ins1": 17.6,
+     "inside": 13.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#12",
+     "E": [
+      0.283,
+      7.011
+     ],
+     "B": [
+      10.46,
+      22.099
+     ],
+     "s_in": 4.3,
+     "s_out": 15.2,
+     "ins0": 4.3,
+     "ins1": 15.2,
+     "inside": 10.9,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#13",
+     "E": [
+      -8.393,
+      14.759
+     ],
+     "B": [
+      10.153,
+      19.728
+     ],
+     "s_in": 1.4,
+     "s_out": 17.6,
+     "ins0": 1.9,
+     "ins1": 17.6,
+     "inside": 15.7,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#14",
+     "E": [
+      -0.288,
+      6.926
+     ],
+     "B": [
+      12.483,
+      27.364
+     ],
+     "s_in": 4.3,
+     "s_out": 20.6,
+     "ins0": 4.3,
+     "ins1": 20.6,
+     "inside": 16.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#15",
+     "E": [
+      -7.62,
+      12.683
+     ],
+     "B": [
+      10.913,
+      22.126
+     ],
+     "s_in": 1.5,
+     "s_out": 19.1,
+     "ins0": 1.5,
+     "ins1": 19.1,
+     "inside": 17.6,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#16",
+     "E": [
+      5.966,
+      8.541
+     ],
+     "B": [
+      -8.691,
+      16.334
+     ],
+     "s_in": 4.4,
+     "s_out": 14.9,
+     "ins0": 4.4,
+     "ins1": 14.2,
+     "inside": 9.8,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#17",
+     "E": [
+      0.22,
+      7.006
+     ],
+     "B": [
+      9.742,
+      20.113
+     ],
+     "s_in": 4.4,
+     "s_out": 13.4,
+     "ins0": 4.4,
+     "ins1": 13.4,
+     "inside": 9.0,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#18",
+     "E": [
+      -7.779,
+      13.13
+     ],
+     "B": [
+      8.481,
+      15.27
+     ],
+     "s_in": 1.5,
+     "s_out": 14.9,
+     "ins0": 1.6,
+     "ins1": 14.9,
+     "inside": 13.3,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    },
+    {
+     "id": "2018-03-11_23-55-05_00-00-05_school_G300_r13_p1#19",
+     "E": [
+      5.911,
+      8.513
+     ],
+     "B": [
+      -8.028,
+      14.574
+     ],
+     "s_in": 5.2,
+     "s_out": 13.6,
+     "ins0": 5.2,
+     "ins1": 13.6,
+     "inside": 8.4,
+     "traffic": 0.0,
+     "status": "approved",
+     "by": "iwdd2027",
+     "date": "2026-10-07",
+     "note": ""
+    }
+   ]
+  },
+  "2018-03-11_23-55-09_00-00-09_hospital_G341_r13_p0": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 665232307,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-11_23-55-09_00-00-09_hospital_G341_r13_p1": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 1352766245,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-11_23-55-09_00-00-09_hospital_G341_r13_p2": {
+   "calib": "823fe0fe5932",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 4,
+    "long entry or exit off the walkable area": 2,
+    "never in view": 2680,
+    "no exit from the view": 40297,
+    "off the walkable area": 56737
+   },
+   "seed": 3383280287,
+   "structures": "956bfa319839",
+   "lines": []
+  },
+  "2018-03-11_23-55-09_00-00-09_hospital_G436_r13_p0": {
+   "calib": "99c18a1b6ca0",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 83104,
+    "long entry or exit off the walkable area": 59673,
+    "never in view": 113959,
+    "no exit from the view": 228499,
+    "off the walkable area": 279765
+   },
+   "seed": 2883509274,
+   "structures": "f1cf4adb1dc0",
+   "lines": []
+  },
+  "2018-03-11_23-55-09_00-00-09_hospital_G436_r13_p1": {
+   "calib": "99c18a1b6ca0",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 83104,
+    "long entry or exit off the walkable area": 59673,
+    "never in view": 113959,
+    "no exit from the view": 228499,
+    "off the walkable area": 279765
+   },
+   "seed": 3705269388,
+   "structures": "f1cf4adb1dc0",
+   "lines": []
+  },
+  "2018-03-11_23-55-09_00-00-09_hospital_G436_r13_p2": {
+   "calib": "99c18a1b6ca0",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 83104,
+    "long entry or exit off the walkable area": 59673,
+    "never in view": 113959,
+    "no exit from the view": 228499,
+    "off the walkable area": 279765
+   },
+   "seed": 1171307830,
+   "structures": "f1cf4adb1dc0",
+   "lines": []
+  },
+  "2018-03-11_23-55-09_00-00-09_hospital_G436_r13_p3": {
+   "calib": "99c18a1b6ca0",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 83104,
+    "long entry or exit off the walkable area": 59673,
+    "never in view": 113959,
+    "no exit from the view": 228499,
+    "off the walkable area": 279765
+   },
+   "seed": 852987296,
+   "structures": "f1cf4adb1dc0",
+   "lines": []
+  },
+  "2018-03-11_23-55-09_00-00-09_hospital_G436_r13_p4": {
+   "calib": "99c18a1b6ca0",
+   "grid": [
+    0.5,
+    0.125
+   ],
+   "refused": {
+    "gap in the walkable area": 83104,
+    "long entry or exit off the walkable area": 59673,
+    "never in view": 113959,
+    "no exit from the view": 228499,
+    "off the walkable area": 279765
+   },
+   "seed": 2897418243,
+   "structures": "f1cf4adb1dc0",
+   "lines": []
+  }
+ }
+}

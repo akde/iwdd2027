@@ -1,0 +1,57 @@
+Changes of the files in this directory against Atze00/MoViNet-pytorch c2d1edf48fc6c5259707f9d833f22171b4f63493,
+already applied (patch -p1 -R < iwdd.patch restores the upstream files).
+--- a/movinets/config.py
++++ b/movinets/config.py
+@@ -2,7 +2,13 @@
+ Inspired by
+ https://github.com/PeizeSun/SparseR-CNN/blob/dff4c43a9526a6d0d2480abc833e78a7c29ddb1a/detectron2/config/defaults.py
+ """
+-from fvcore.common.config import CfgNode as CN
++class CN(dict):  # IWDD patch: replaces fvcore's CfgNode (only used as an attribute dict here)
++    def __getattr__(self, k):
++        try:
++            return self[k]
++        except KeyError:
++            raise AttributeError(k)
++    __setattr__ = dict.__setitem__
+ 
+ def fill_SE_config(conf, input_channels, 
+                     out_channels, 
+--- a/movinets/models.py
++++ b/movinets/models.py
+@@ -379,29 +379,12 @@
+         self.avgf = nn.AvgPool3d((1, 3, 3), stride=(1, 2, 2))
+ 
+     def forward(self, x: Tensor) -> Tensor:
+-        if x.shape[-1] != x.shape[-2]:
+-            raise RuntimeError('only same shape for h and w ' +
+-                               'are supported by avg with tf_like')
+-        if x.shape[-1] != x.shape[-2]:
+-            raise RuntimeError('only same shape for h and w ' +
+-                               'are supported by avg with tf_like')
+-        f1 = x.shape[-1] % 2 != 0
+-        if f1:
+-            padding_pad = (0, 0, 0, 0)
+-        else:
+-            padding_pad = (0, 1, 0, 1)
+-        x = torch.nn.functional.pad(x, padding_pad)
+-        if f1:
+-            x = torch.nn.functional.avg_pool3d(x,
+-                                               (1, 3, 3),
+-                                               stride=(1, 2, 2),
+-                                               count_include_pad=False,
+-                                               padding=(0, 1, 1))
+-        else:
+-            x = self.avgf(x)
+-            x[..., -1] = x[..., -1] * 9/6
+-            x[..., -1, :] = x[..., -1, :] * 9/6
+-        return x
++        # IWDD patch: TF "SAME" 3x3 stride-2 average (padding excluded from the mean) for h and w separately, so
++        # h != w works; for h == w it equals the original (odd size: pad 1 and 1; even size: pad 0 and 1).
++        pad = (x.shape[-1] % 2, 1, x.shape[-2] % 2, 1)
++        s = F.avg_pool3d(F.pad(x, pad), (1, 3, 3), stride=(1, 2, 2))
++        n = F.avg_pool3d(F.pad(torch.ones_like(x[:1, :1]), pad), (1, 3, 3), stride=(1, 2, 2))
++        return s / n
+ 
+ 
+ class BasicBneck(nn.Module):

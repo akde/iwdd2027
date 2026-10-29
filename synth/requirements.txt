@@ -1,0 +1,16 @@
+# Python packages of the synthetic-data scripts (Python 3.12; tested with these versions). ultralytics goes in
+# separately without its dependencies, so that it keeps opencv-python-headless:
+#   pip install -r synth/requirements.txt && pip install --no-deps ultralytics==8.3.253 ultralytics-thop==2.2.2
+av==19.0.0
+matplotlib==3.11.2
+numpy==2.3.5
+opencv-python-headless==5.0.0.93
+pandas==3.0.6
+pillow==12.3.0
+polars==1.44.2
+psutil==7.2.2
+PyYAML==6.0.3
+requests==2.34.2
+scipy==1.18.1
+torch==2.11.0
+torchvision==0.26.0

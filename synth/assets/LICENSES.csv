@@ -1,0 +1,8 @@
+asset,source,url,version,licence,notes
+Blender 4.2.23 LTS,blender.org,https://download.blender.org/release/Blender4.2/,4.2.23,GPL-3.0 (outputs free),renderer
+Rocketbox avatars and animations,Microsoft,https://github.com/microsoft/Microsoft-Rocketbox,commit 0943055,MIT,40 adults + 18 professions + 471 animations
+YOLO11s weights,Ultralytics,https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11s.pt,8.3.0,AGPL-3.0,person detection (research use)
+MEVA videos,Kitware/IARPA,https://mevadata.org,drops-123-r13,CC-BY-4.0,extra plates (training-only)
+Poly Haven object meshes,Poly Haven,https://polyhaven.com,glTF 1k,CC0,23 objects (synth/scripts/fetch_objects.py)
+YOLO11x weights,Ultralytics,https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x.pt,8.3.0,AGPL-3.0,person and vehicle detection (QC and plate scripts)
+YOLO11x-seg weights,Ultralytics,https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x-seg.pt,8.3.0,AGPL-3.0,parked-vehicle masks (plate_vehicles.py)

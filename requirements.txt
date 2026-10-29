@@ -1,0 +1,7 @@
+# Pinned packages for submission/test.py (installed by test.ipynb; test.py installs av and einops itself if missing).
+# torch: Colab's preinstalled CUDA build (tested locally with torch 2.11.0+cu128, numpy 2.3.5, pandas 3.0.6, Python 3.12).
+# Colab check 2026-10-08: T4, Python 3.13.15, torch 2.11.0+cu130, numpy 2.1.3 (the same outputs).
+av==19.0.0
+opencv-python-headless==5.0.0.93
+einops==0.8.2
+pandas

@@ -1,0 +1,113 @@
+{
+ "run": "s5_movinet_ft_r_v23_fe5",
+ "choice": "synth",
+ "variant": "e5_fpfn",
+ "tau": 0.363,
+ "delta": -1.0,
+ "experiment": "E3s",
+ "epochs_chosen": {
+  "0": 5,
+  "1": 5,
+  "2": 5,
+  "3": 5,
+  "4": 5
+ },
+ "synthetic": {
+  "index": [
+   "cache/frames5_synth/release_v3/index.csv"
+  ],
+  "index_sha256": [
+   "9b3174338661a15952bd59ae984478e88af889a8642bb90db48f75a34f02b75f"
+  ],
+  "cap": 1.0,
+  "clips": 1722,
+  "source": [
+   {
+    "release": "release_v3",
+    "manifest_sha256": "768e8387b56b53d3b85e60cdc2f94b257d111c39355999f33d746da210120409",
+    "clips": 1722
+   }
+  ],
+  "pool": {
+   "0": {
+    "inner": 1556,
+    "outer": 1672
+   },
+   "1": {
+    "inner": 1258,
+    "outer": 1606
+   },
+   "2": {
+    "inner": 1358,
+    "outer": 1374
+   },
+   "3": {
+    "inner": 1702,
+    "outer": 1706
+   },
+   "4": {
+    "inner": 1668,
+    "outer": 1718
+   }
+  }
+ },
+ "oof_sha256": "b946286d9dd557ee7fa2b9fbe1ac7262159d8764cd3b3d68a507d1d01c1e3f9d",
+ "movinet_sha256": "4c1cbef685413caffecd7dcdc656a8e009836868a0e5de47ce42a8486cc91659",
+ "files": {
+  "f0_s0.pt": "dfe550991f90bc09ebf6c6f756a27a51768b7731fc004d19b4fdf54be8ec17e3",
+  "f0_s1.pt": "f1c8c68e6d4a93f4f830d329293762a14d3219b3c4bc59b2d4394c783e5de81e",
+  "f0_s2.pt": "52ffd8d198987352a99e114c9cdca38eebfbebca9008eb45072effaf5007c54c",
+  "f1_s0.pt": "b8b86ab2f7c34f88463685a1d452cf3585c2a9607c29e0e1cb1e35d186928b66",
+  "f1_s1.pt": "86c68f34b8762bca11b824a8e6dca758028e507cb0df03103dc9d9a50ea76e74",
+  "f1_s2.pt": "862601c27271edf80fa2a87405ef6027f910cc67f10d77ec3a7b81f452e76bff",
+  "f2_s0.pt": "b4e80746290681601a65a0b8fb910f71fae14c555ec970baa1dd29a6920e7550",
+  "f2_s1.pt": "a4b164d627fa8f4a0aa497a19e700de855828a3577d28c4f11358db1b398067c",
+  "f2_s2.pt": "a7a656da9c75aa46268e36ce7dd57f1162666dd39400d0e09e6ed9eebea9bcca",
+  "f3_s0.pt": "7c87aeac157101da6252db20b3659776dd5e34fbc7f24ab830163f0160a34817",
+  "f3_s1.pt": "e15f009c263712e715d7d25084b9fe0c9856125aa5abf0dbd9c5ba5488859fcd",
+  "f3_s2.pt": "84f456d7f5cbbb067761604ed967351bc0477c311fb7925b746afeae7922ffd2",
+  "f4_s0.pt": "5adf6ab49a137da805b63ca7fe9424a81bbb52e63a048fc93e0fece79c7e89da",
+  "f4_s1.pt": "1e3299d1ba3273e90110849d66c8a7f342e42bf3c0d12ce7197c7f94b6a60a46",
+  "f4_s2.pt": "dbeb14906eea2077480d7f19dfeda36b4715adcbb4e9a46889124fdafe61afcd"
+ },
+ "form": "refit",
+ "full": {
+  "run": "s5_movinet_ft_r_v23_full5",
+  "epochs": 5,
+  "seeds_by_file": {
+   "g0_s0.pt": 0,
+   "g0_s1.pt": 1,
+   "g0_s2.pt": 2,
+   "g1_s0.pt": 3,
+   "g1_s1.pt": 4,
+   "g1_s2.pt": 5,
+   "g2_s0.pt": 6,
+   "g2_s1.pt": 7,
+   "g2_s2.pt": 8,
+   "g3_s0.pt": 9,
+   "g3_s1.pt": 10,
+   "g3_s2.pt": 11,
+   "g4_s0.pt": 12,
+   "g4_s1.pt": 13,
+   "g4_s2.pt": 14
+  },
+  "insample_sha256": "91d70b7178f6a50fc1aa0175e5d17a7a4bdd55bb5964cf279cca189103f9cd1c",
+  "files": {
+   "g0_s0.pt": "3a5e44825da00a3551f3ea12e60dfbba53dd3098e7392c2ad9e3b2b3f8ae9998",
+   "g0_s1.pt": "3663a16361e16f31f152ca59a34a188af36eb01557baea34899b502a73715d83",
+   "g0_s2.pt": "6bab58f2411580d98883dd8e0494055b3840d3b7400f137c1321aedab0b2a43f",
+   "g1_s0.pt": "148a492f366d1688388daaf683cb298729389d956819b297f98bbf928f58b8b3",
+   "g1_s1.pt": "748a879efd373f42f307f139df448d3efcbd558ddaeed8a0ee2572940c6000cc",
+   "g1_s2.pt": "835bab9c32d0b67b5d0a4bb2f93a64fd1e22b64268dde96d815cb3a6da6a053a",
+   "g2_s0.pt": "7813c4da8ce4bd280f4879deb13234cf885aff728660c87f04353b0ea0a20cf2",
+   "g2_s1.pt": "fe482c0cf0124b13993ff20b3ed763598c6a7963164f01357aac0146d77620f5",
+   "g2_s2.pt": "85e91de19422288cbd3687527e7e8e4dfaed18a2cfb68d05033856ac6e0813ff",
+   "g3_s0.pt": "25c244783b0368f145e20cee74b1a434fb429929aad9efd4aa839990fee897be",
+   "g3_s1.pt": "2ee3ce569d17219a7b44efa64fd74abd1f54160f51a1f03cf7cc4632c1de8c7e",
+   "g3_s2.pt": "f4a65e193c029f9e585e728319e4fde4b50f156a1b7b09fb409eabeb93c6e000",
+   "g4_s0.pt": "aa3017988a35da16187d07a0f7987a3def7d7904e9b43e5f0c74ae642bbeaa4a",
+   "g4_s1.pt": "5bd6da3e9c4ab7f6ebcb8c7fe66bb98d6032557db136dfaa1bf2a77e9587374e",
+   "g4_s2.pt": "3c6227c57d428b1ab8632648196d4d1155cfa04ac0423d2cd99a2668a8a17e1a"
+  }
+ }
+}

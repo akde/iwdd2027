@@ -1,0 +1,49 @@
+# Data (MIVIA-IWDD videos and labels) and everything built from it
+data/*
+!data/folds.csv
+cache/
+features*/
+runs/
+reports/
+test_results.log
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.npy
+*.npz
+
+# Model weights other than the shipped ones
+*.pt
+*.pth
+!submission/model/*.pt
+
+# Synthetic data: the per-plate tables and detections are tracked; clips, renders, rasters and assets stay local
+synth/data/*
+!synth/data/plates.csv
+!synth/data/calib_check.csv
+!synth/data/plate_vet.csv
+!synth/data/plate_light.csv
+!synth/data/exclude_pairs.csv
+!synth/data/anim_inventory.csv
+!synth/data/avatar_table.csv
+!synth/data/object_table.csv
+!synth/data/distractor_lines.json
+!synth/data/det/
+!synth/data/det_x/
+!synth/data/det*/*.npz
+!synth/data/meva/
+synth/data/meva/*
+!synth/data/meva/plate_keys.txt
+synth/assets/*
+!synth/assets/LICENSES.csv
+synth/*_manifest.csv
+# plates on contest footage stay local (they encode contest labels)
+synth/calib/vid*
+synth/calib/structures/vid*
+synth/data/det_x/vid*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
